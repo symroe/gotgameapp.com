@@ -1,0 +1,34 @@
+div.lovedby {
+    background-color:#171427;
+    min-height:250px;
+    background-image:url('/static/img/game-titles.png');
+    background-repeat:repeat-x;
+    background-position:left bottom;
+}
+
+div.lovedby h2 {
+    color:#FFF;
+    float:left;
+    max-width:20%;
+    font-size:1.2em;
+    padding:0.3em 1em 0 0;
+}
+
+div.lovedby img {
+    color:#FFF;
+    float:left;
+    max-width:80%;
+}
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.lovedby h2, div.lovedby img {
+        font-size:1em;
+        max-width:100%;
+    }
+    
+    div.lovedby {
+        background-position:140% bottom;
+    }
+    
+}

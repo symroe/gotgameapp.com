@@ -1,0 +1,28 @@
+div.team {
+    color:#FFF;
+    background-color:#171427;
+    text-align:center;
+    margin:0 auto;
+}
+
+div.team figure figcaption h3 {
+    color:#C51F29;
+}
+
+div.team figure {
+    float:left;
+    width:24.3%;
+    margin:0 5px 0 0;
+}
+
+div.team figure:nth-child(6) {
+    clear:left;
+}
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.team figure {
+        float:left;
+        width:100%;
+    }
+}

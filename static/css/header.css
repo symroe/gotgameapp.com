@@ -1,0 +1,53 @@
+div.gotgame {
+    background-color:#221B2B;
+    color:#FFF;
+    background-image:url('/static/img/header_bg.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    min-height:400px;
+}
+
+div.gotgame h1 {
+    color:#A0C230;
+}
+
+div.gotgame em {
+    color:#C4E161;
+    font-style:normal;
+}
+
+div.gotgame form input[type=email] {
+    border:none;
+    padding:1em;
+    width:30%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+div.gotgame form input[type=submit] {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:none;
+    padding:1em;
+    width:10%;
+    background-color:#74779A;
+    
+}
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.gotgame {
+        background-image:none;
+        min-height:100px;
+    }
+    
+    div.gotgame form input[type=email], div.gotgame form input[type=submit] {
+        width:80%;
+        text-align:center;
+        margin:0 auto;
+    }
+    
+}

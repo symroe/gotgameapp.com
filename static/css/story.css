@@ -1,0 +1,45 @@
+div.story {
+    text-align:center;
+}
+
+div.story h2 em {
+    color:#C51F29;
+    font-style:normal;
+}
+
+div.story img {
+    float:left;
+    width:24%;
+    padding:4px;
+}
+
+div.story a {
+    display:block;
+    background-color:#3B6B93;
+    clear:both;
+    border-bottom:4px solid #2F5579;
+    color:#FFF;
+    text-decoration:none;
+    font-size:1.3em;
+    padding:0 0 0.5em 0;
+    margin:1em;
+}
+
+div.story a span {
+    font-size:2em;
+    position:relative;
+    top:0.1em;
+    font-family:'Mono Social Icons Font';
+}
+
+
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.story img {
+        float:left;
+        width:100%;
+        padding:4px;
+    }
+    
+}

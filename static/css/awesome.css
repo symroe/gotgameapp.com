@@ -1,0 +1,23 @@
+div.awesome {
+    background-color:#171427;
+    color:#FFF;
+    text-align:center;
+}
+
+div.awesome h2 {
+    color:#CF1F29;
+    font-size:3em;
+}
+
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.awesome h2 {
+        color:#CF1F29;
+        font-size:1.2em;
+    }
+
+    div.awesome img {
+        width:100%;
+    }
+}

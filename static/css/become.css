@@ -1,0 +1,45 @@
+div.become {
+    
+}
+
+div.become h2 {
+    color:#000;
+    text-align:center;
+}
+
+div.become h2 em {
+    color:#CF1F29;
+    font-style:normal;
+}
+
+div.become img {
+    float:left;
+    width:65%;
+}
+
+div.become figcaption {
+    float:right;
+    width:29%;
+    line-height:2em;
+    color:#828282;
+}
+
+div.become figcaption span {
+    display:block;
+    height:150px;
+    width:131px;
+    background-image:url('/static/img/game-titles.png');
+    background-position:0 0;
+    margin:0 auto;
+    margin:2em;
+}
+
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.become img, div.become figcaption {
+        width:100%;
+    }
+    
+}
+

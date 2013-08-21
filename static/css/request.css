@@ -1,0 +1,64 @@
+div.request {
+    background-color:#CE202A;
+    color:#FFF;
+    text-align:center;
+    
+}
+
+
+div.request h2 em, div.request h3 em {
+    font-style:normal;
+    font-weight:bold;
+}
+
+div.request a {
+    color:#FFF;
+    font-size:4em;
+    text-decoration:none;
+    padding:0.5em;
+    font-family:'Mono Social Icons Font';
+}
+
+div.request img {
+    padding:0;
+    margin:0;
+    position:relative;
+    top:3em;
+}
+
+
+div.request form {
+    margin:2em;
+}
+div.request form input[type=email] {
+    border:none;
+    padding:1em;
+    width:30%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+div.request form input[type=submit] {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:none;
+    padding:1em;
+    width:10%;
+    background-color:#000;
+    color:#FFF;
+    
+}
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.request form input[type=email] {
+        width:80%;
+    }
+
+    div.request form input[type=submit] {
+        width:80%;
+    }
+
+}

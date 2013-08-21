@@ -1,5 +1,52 @@
 @import url('fonts.css');
+@import url('header.css');
+@import url('lovedby.css');
+@import url('how-it-works.css');
+@import url('awesome.css');
+@import url('become.css');
+@import url('team.css');
+@import url('story.css');
+@import url('request.css');
+
+div.how-it-works, div.lovedby, div.team, div.become, div.story {
+/*    display:none;*/
+}
 
 body {
-	font: 16px "droid" serif;
+    font: 16px "droid", serif;
+    margin:0 auto;
+    padding:0;
+}
+
+body div {
+    padding:2em 0;
+}
+
+body > div > section, body > div > header, body > div > footer {
+    max-width:900px;
+    margin:0 auto;
+    padding:10px;
+}
+
+h1,h2,h3,h4 {
+    margin:1em auto;
+    padding:0;
+}
+
+h1 em, h2 em {
+    font-style:normal;
+}
+
+img {
+    max-width:100%;
+}
+
+/* clearfix */
+body > div:before,
+body > div:after {
+    content:"";
+    display:table;
+}
+body > div:after {
+    clear:both;
 }

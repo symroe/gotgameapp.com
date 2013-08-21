@@ -1,0 +1,44 @@
+div.how-it-works {
+    background-color:#CE202A;
+    color:#FFF;
+    padding-top:6em;
+    text-align:center;
+    padding-bottom:0;
+}
+
+div.how-it-works img {
+    margin:0;
+    padding:0;
+    float:left;
+    bottom:0;
+    max-width:100%;
+    width:45%;
+}
+
+div.how-it-works figcaption {
+    padding-left:2em;
+    float:right;
+    width:50%;
+}
+
+
+div.how-it-works h3, div.how-it-works h2 {
+    text-transform:uppercase;
+}
+
+div.how-it-works h3 {
+    color:#660F15;
+}
+
+/* Mobile devices */
+@media screen and (max-width:400px) {
+    div.how-it-works img {
+        width:100%;
+    }
+
+    div.how-it-works figcaption {
+        width:100%;
+    }
+    
+
+}
